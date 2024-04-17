@@ -1,0 +1,44 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 350px;
+    border: 1px solid skyblue;
+    margin: auto;
+    margin-top: 50px;
+}
+div label {
+    color: rgb(22, 18, 18);
+    font-weight: 2rem;
+    font-size: larger;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48vh;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom:5px ;
+    padding: 10px;
+    border: 1px solid skyblue;
+    font-weight: 100;
+    cursor: pointer;
+}
+button {
+    width: 50vh;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: blue;
+    border:none ;
+    font-size: larger;
+    font-weight: 100;
+    color: #fff;
+}
